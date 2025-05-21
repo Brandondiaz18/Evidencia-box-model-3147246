@@ -1,0 +1,83 @@
+/*box model
+    1. la etiqueta debe de tener
+    - contenido
+    - width y heigth
+
+    2. la etiqueta debe de tener display:box
+    implica:
+    -1. el ancho va a ocupar toda la pantalla 
+
+*/
+
+.box{
+    height: 200px;
+}
+
+#caja1{
+    display: block;
+/* 
+    
+*/
+    border: 20px dotted  rgba(37, 53, 201, 0.5);
+    margin: 100px 200px 100px 50px;
+
+}
+
+.box1{
+    background-color: salmon;
+    padding: 20px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#caja2{
+    display: inline-block;
+    width: 300px ;
+    border-top: #c03131 solid 20px;
+    border-bottom: #1e98d1 dotted 20px;
+    border-left: #690909 double 20px;
+    border-right: #c0df11 solid 20px;
+    margin-top: 100px ;
+}
+
+.box2{
+    background-color: rgb(190, 56, 56);
+    padding: 30px 90px 5px 60px;
+}
+
+#caja3{
+    display: block;
+    width: 400px ;  
+    border-style: outset;
+    border-width:  50px;
+    border-color: #c0df11;
+    margin-top: 10px ;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.box3{
+    background-color: #555;
+    padding: 80px 5px ;
+}
+
+#caja4{
+    display: block;
+    width: 400px ;  
+    border-style: dotted;
+    border-top: #c03131 solid 80px;
+    border-bottom: #1e98d1 dotted 7px;
+    border-left: #690909 double 50px;
+    border-right: #c0df11 solid 20px;
+}
+
+.box4{
+    background-color: #555;
+    padding: 20px;
+    padding-right: 80px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
